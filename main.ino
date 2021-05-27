@@ -96,8 +96,7 @@ if (strcmp(topic,mqtt_listen_topic_textlineheight)==0){
     printer.print(F("\n"));
  }
 
-
-} //end callback
+} 
 
 void setup() {
 
@@ -158,3 +157,4 @@ void loop() {
   mqtt.loop();
   
 }
+
