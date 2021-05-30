@@ -42,7 +42,7 @@ Maximum size for bitmap printing is 384 pixels width
 
 ## Printer has no paper
 Library contains option to check status of the paper - printer.has_paper should return True is there is paper and False if no paper is present.
-In Version 2.1 the topic ??????? is used to send every 10 seconds the *yes* or *no* 
+In Version 2.1 the topic defined here 'mqtt_listen_topic_papercheck' is used to send every 10 seconds the *yes* or *no* 
 
 ## Badcode usage
 in Version 2.1
