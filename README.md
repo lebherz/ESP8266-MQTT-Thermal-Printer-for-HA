@@ -83,7 +83,7 @@ In order to compile this project, you need to rename example-config.h to config.
 - *mqtt_listen_topic_textunderline* - MQTT topic for inverse the text: *1* = underline, *0* = not underline
 - *mqtt_text_size* - MQTT topic for initial size of the text we will print, S for Small, M for Medium, L for Large
 - *mqtt_row_spacing* - MQTT topic of initial row spacing with default being 32, minimum 24 and maximum 64
-- *mqtt_listen_topic_barcode* - MQTT topic to print barcode in payload should be: <barcodetype>|<barcode_value> e.g. 7|HelloMaster here 4 is barcodetype CODE93
+- *mqtt_listen_topic_barcode* - MQTT topic to print barcode in payload should be: `<barcodetype>|<barcode_value>` e.g. `7|HelloMaster` here 4 is barcodetype CODE93
 - *mqtt_listen_topic_papercheck* - MQTT topic (readonly!) sends every defined milliseconds *papercheck_milliseconds* the status of the paperload *yes* | *no* 
 
 
