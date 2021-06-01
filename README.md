@@ -58,7 +58,7 @@ Important: your thermal printer has only 58mm to print the barcode in the exampl
 *7* = CODE93,  < CODE93 barcode system. 1<=num<=255    
 *8* = CODE128, < CODE128 barcode system. 2<=num<=255    
   payload for the barcode_ topic (configed below) is    
-  <barcodetype>|<barcode_value>   
+  `<barcodetype>|<barcode_value>`  
   e.g. *7|Hello!!*   
 
 
