@@ -86,7 +86,7 @@ In order to compile this project, you need to rename example-config.h to config.
 - *mqtt_listen_topic_barcode* - MQTT topic to print barcode in payload should be: `<barcodetype>|<barcode_value>` e.g. `7|HelloMaster` here 4 is barcodetype CODE93
 - *mqtt_listen_topic_papercheck* - MQTT topic (readonly!) sends every defined milliseconds *papercheck_milliseconds* the status of the paperload *yes* | *no* 
 
-##mqtt Topics
+## MQTT Topics
 | mqtt topic | payload |
 |-|:-|
 |*mqtt_listen_topic_text2print*| e.g. "Hello world!" |
