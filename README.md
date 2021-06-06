@@ -98,6 +98,8 @@ In order to compile this project, you need to rename example-config.h to config.
 |*mqtt_listen_topic_textunderline*|*1* = underline,<br> *0* = not underline|
 |*mqtt_listen_topic_barcode*| \<barcodetype\>\|\<barcode_value\><br> e.g. 7\|HelloMaster|
 |*mqtt_listen_topic_papercheck*| **readonly!**<br> - yes<br>- no |
+
 \*defined in config-file above
+
 # Credits
 - [HutchieV](https://github.com/HutchieV) for [ESP8266 MQTT Thermal Printer](https://github.com/HutchieV/ESP8266-MQTT-Thermal-Printer)
